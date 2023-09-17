@@ -49,7 +49,6 @@ class StartScreen extends StatelessWidget{
             onPressed: (){},
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
-              
             ),
             icon: const Icon(
               Icons.arrow_right_alt
