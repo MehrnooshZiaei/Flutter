@@ -18,8 +18,10 @@ class _QuestionsScreenState extends State<QuestionsScreen>{
 
   @override
   Widget build(context){
-    return const Text(
-      "Hello",
+    return Center(
+      child: Column(
+
+      ),
     );
   }
 }
