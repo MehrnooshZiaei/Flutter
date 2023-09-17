@@ -23,11 +23,17 @@ class _QuizState extends State<Quiz>{
   // }
 
   // Way 2 - Using Ternary Expression
+  final List<String> selectedAnswers = []; // Plan on Adding Element to a list, not reasign values
+
   var activeScreen = 'start-screen';
   void switchScreen(){
     setState(() {
       activeScreen = 'questions-screen';
     });
+  }
+
+  void chooseAnswer(String answer){
+    selectedAnswers.add(answer);
   }
 
   @override
@@ -38,7 +44,7 @@ class _QuizState extends State<Quiz>{
 // way 3    
     Widget screenWidget = StartScreen(switchScreen);
     if (activeScreen == 'questions-screen') {
-      screenWidget = const QuestionsScreen();
+      screenWidget = QuestionsScreen(onSelectAnswer: chooseAnswer);
     }
 
     return MaterialApp(
