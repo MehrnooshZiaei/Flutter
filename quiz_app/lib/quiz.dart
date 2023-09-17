@@ -32,6 +32,15 @@ class _QuizState extends State<Quiz>{
 
   @override
   Widget build(context){
+    // var screenWidget = StartScreen(switchScreen);
+// way 2    
+    // final screenWidget = activeScreen == 'start-screen' ? StartScreen(switchScreen) : const QuestionsScreen();
+// way 3    
+    Widget screenWidget = StartScreen(switchScreen);
+    if (activeScreen == 'questions-screen') {
+      screenWidget = const QuestionsScreen();
+    }
+
     return MaterialApp(
       home: Scaffold(
         body: Container(
@@ -45,7 +54,9 @@ class _QuizState extends State<Quiz>{
             end: Alignment.bottomRight,
           ),
         ),
-          child: activeScreen == 'start-screen' ? StartScreen(switchScreen) : const QuestionsScreen(),
+// way 1        
+          // child: activeScreen == 'start-screen' ? StartScreen(switchScreen) : const QuestionsScreen(), // Adding Ternary Expression
+          child: screenWidget,
         ), 
       ),
     );
