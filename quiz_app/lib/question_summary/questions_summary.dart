@@ -15,7 +15,9 @@ class QuestionsSummary extends StatelessWidget{
           children: summaryData.map((data){
             return Row(
               children: [
-                Text(((data['question_index'] as int) + 1).toString(),),
+                Text(
+                  ((data['question_index'] as int) + 1).toString(),
+                ),
                 Expanded(
                   child: Column(
                       children: [
