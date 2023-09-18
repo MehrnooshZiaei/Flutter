@@ -1,9 +1,26 @@
 import 'package:flutter/material.dart';
+import 'package:quiz_app/data/questions.dart';
 
 class ResultsScreen extends StatelessWidget{
   const ResultsScreen({super.key, required this.choosenAnswers});
 
   final List<String> choosenAnswers;
+
+  List<Map<String, Object>> getSummaryData(){
+  
+    final List<Map<String, Object>> summary = [];
+    
+    for (var i = 0; i < choosenAnswers.length; i++) {
+      summary.add({
+        'question_index': i,
+        'question_text': questions[i].text,
+        'correct_answer': questions[i].answers[0], // The first answer is always the right one and we do not shuffle them
+        'user_answer': choosenAnswers[i]
+      });
+    }
+
+    return summary;
+  }
   
   @override
   Widget build(BuildContext context){
