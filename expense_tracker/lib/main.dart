@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:expense_tracker/widgets/expenses.dart';
+import 'package:flutter/services.dart';
 
 var kColorScheme = ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 96, 59, 181));
 var kDarkColorScheme = ColorScheme.fromSeed(
@@ -8,7 +9,14 @@ var kDarkColorScheme = ColorScheme.fromSeed(
 );
 
 void main(){
-  runApp(
+  
+  // Way1 - Disable Landscape Mode
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([
+  //   DeviceOrientation.portraitUp,
+  // ]).then((fn) => runApp(...));
+
+   runApp(
     MaterialApp(
       // With copyWith we over write some parameters that we want to
       darkTheme: ThemeData.dark().copyWith(
