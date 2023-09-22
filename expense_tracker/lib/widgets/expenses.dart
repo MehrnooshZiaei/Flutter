@@ -56,6 +56,11 @@ class _ExpensesState extends State<Expenses>{
 
   @override
   Widget build(BuildContext context){
+
+    // print(MediaQuery.of(context).size.width);
+    // print(MediaQuery.of(context).size.height);
+    final width = MediaQuery.of(context).size.width; //Use to render a row instead of column if we have enough width available
+
     Widget mainContent = const Center(
       child: Text('No Expenses found. Start adding some!'),
     );
@@ -75,10 +80,21 @@ class _ExpensesState extends State<Expenses>{
         ],
         
       ),
-      body: Column(
+      body: width < 600 ? Column(
         children: [
           // Way1: toolbar with the add button => Row()
           Chart(expenses: _registeredExpenses),
+          Expanded(
+            child: mainContent,
+          ),
+        ],
+      ) :
+       Row( // Try to get as much width as possible
+        children: [
+          // Way1: toolbar with the add button => Row()
+          Expanded(
+            child: Chart(expenses: _registeredExpenses)
+          ),
           Expanded(
             child: mainContent,
           ),
