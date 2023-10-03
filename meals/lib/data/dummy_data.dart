@@ -101,7 +101,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg',
+        'https://www.daringgourmet.com/wp-content/uploads/2020/05/Toast-Hawaii-13.jpg',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -130,7 +130,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/10/23/18/05/burger-500054_1280.jpg',
+        'https://cf-store.widencdn.net/mccormick/6/5/a/65aae501-3f1a-4aaa-b114-6e4fe3e5c16d.png?response-content-disposition=inline%3B%20filename%3D%22frenchs_burger_styled-image_800x800.png%22&response-content-type=image%2Fpng&Expires=1696362285&Signature=HZB8Axl3keP3PShntGbAKvcglbMtIDOq5S8XU86kPfpeC2ZNTOZDZ~In7SToSkdADZNCUq0KJhcwhoO-NUYmkkTDzN7EJrjW0n7ddnIf0AAHGZHNe7XzVhlxgaTDuC3-Km4-eE-Lhcur6XOhYnGYs2qESHnMDrfT2wCvkhspM7khSYKgmhk1iz7M~CVe7Ah-3p1psmyVNgLJs2JVJwzXueWLPo7i2IQRUeolzj-rmMRozrbGdgtejYvoTn4Vj0Y~WJonkwcsiRqVga5Wa6hwwvaoKkDdYZAfbzBWlqZUAsMX8D3eExLHJSbhLw10RbuakdsZptfFS2gXFyRu0CVXWQ__&Key-Pair-Id=APKAJD5XONOBVWWOA65A',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -161,7 +161,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/03/31/19/29/schnitzel-3279045_1280.jpg',
+        'https://insanelygoodrecipes.com/wp-content/uploads/2022/03/Wiener-Schnitzel-with-Potatoes.jpg',
     duration: 60,
     ingredients: [
       '8 Veal Cutlets',
@@ -198,7 +198,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2016/10/25/13/29/smoked-salmon-salad-1768890_1280.jpg',
+        'https://www.eatingwell.com/thmb/FB_AjP3MH8L5DdQW7U_Si7xAL9M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/7669448-f7bcb95210f646c2a3ba58bddd03bbc5.jpg',
     duration: 15,
     ingredients: [
       'Arugula',
@@ -233,7 +233,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2017/05/01/05/18/pastry-2274750_1280.jpg',
+        'https://www.thermorecetas.com/wp-content/uploads/2017/02/Mousse-de-naranja-y-chocolate-1.jpg',
     duration: 240,
     ingredients: [
       '4 Sheets of Gelatine',
@@ -268,7 +268,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/07/10/21/23/pancake-3529653_1280.jpg',
+        'https://www.wholesomeyum.com/wp-content/uploads/2017/03/wholesomeyum-Low-Carb-Keto-Pancakes-Recipe-21.jpg',
     duration: 20,
     ingredients: [
       '1 1/2 Cups all-purpose Flour',
@@ -299,7 +299,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.challenging,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/06/18/16/05/indian-food-3482749_1280.jpg',
+        'https://salu-salo.com/wp-content/uploads/2017/08/Creamy-Mild-Chicken-Curry-2.jpg',
     duration: 35,
     ingredients: [
       '4 Chicken Breasts',
@@ -332,7 +332,7 @@ const dummyMeals = [
     affordability: Affordability.affordable,
     complexity: Complexity.hard,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2014/08/07/21/07/souffle-412785_1280.jpg',
+        'https://img.taste.com.au/rzQh6Xgx/taste/2016/11/easy-molten-chocolate-souffle-58756-1.jpeg',
     duration: 45,
     ingredients: [
       '1 Teaspoon melted Butter',
@@ -383,7 +383,7 @@ const dummyMeals = [
     affordability: Affordability.luxurious,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cdn.pixabay.com/photo/2018/04/09/18/26/asparagus-3304997_1280.jpg',
+        'https://juliasalbum.com/wp-content/uploads/2021/09/asparagus-tomato-salad-with-burrata-cheese-6.jpg',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',
