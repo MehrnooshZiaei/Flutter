@@ -130,7 +130,7 @@ const dummyMeals = [
     affordability: Affordability.pricey,
     complexity: Complexity.simple,
     imageUrl:
-        'https://cf-store.widencdn.net/mccormick/6/5/a/65aae501-3f1a-4aaa-b114-6e4fe3e5c16d.png?response-content-disposition=inline%3B%20filename%3D%22frenchs_burger_styled-image_800x800.png%22&response-content-type=image%2Fpng&Expires=1696362285&Signature=HZB8Axl3keP3PShntGbAKvcglbMtIDOq5S8XU86kPfpeC2ZNTOZDZ~In7SToSkdADZNCUq0KJhcwhoO-NUYmkkTDzN7EJrjW0n7ddnIf0AAHGZHNe7XzVhlxgaTDuC3-Km4-eE-Lhcur6XOhYnGYs2qESHnMDrfT2wCvkhspM7khSYKgmhk1iz7M~CVe7Ah-3p1psmyVNgLJs2JVJwzXueWLPo7i2IQRUeolzj-rmMRozrbGdgtejYvoTn4Vj0Y~WJonkwcsiRqVga5Wa6hwwvaoKkDdYZAfbzBWlqZUAsMX8D3eExLHJSbhLw10RbuakdsZptfFS2gXFyRu0CVXWQ__&Key-Pair-Id=APKAJD5XONOBVWWOA65A',
+        'https://assets.biggreenegg.eu/app/uploads/2019/03/28145521/topimage-classic-hamburger-2019m04-800x534.jpg',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
