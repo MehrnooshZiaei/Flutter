@@ -7,7 +7,7 @@ class MealDetailsScreen extends StatelessWidget{
 
   final Meal meal;
   final void Function(Meal meal) onToggleFavorite;
-
+  
   @override
   Widget build(BuildContext context){
     return Scaffold(
