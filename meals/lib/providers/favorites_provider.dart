@@ -14,7 +14,7 @@ class FavoriteMealsNotifier extends StateNotifier<List<Meal>> {
       state = [...state, meal];
       return true;
     }
-
+    // ignore: dead_code
     state = [];
   }
 }
