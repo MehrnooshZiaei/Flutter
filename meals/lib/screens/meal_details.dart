@@ -26,7 +26,21 @@ class MealDetailsScreen extends ConsumerWidget{
               ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(wasAdded ? 'Meal added as a favorite.' : 'Meal Removed')));
 
             }, 
-            icon: Icon(isFavorite ? Icons.star : Icons.star_border)
+            icon: AnimatedSwitcher(
+              duration: const Duration(
+                milliseconds: 300,
+              ),
+              transitionBuilder: (child, animation) {
+                return RotationTransition(
+                  turns: Tween<double>(begin: 0.8 , end: 1,).animate(animation),
+                  child: child,
+                );
+              },
+              child: Icon(
+                isFavorite ? Icons.star : Icons.star_border, 
+                key: ValueKey(isFavorite), // We add key to let flutter know there is a change in Icon widget by isFavorite value
+              ),
+            ), 
           ),
         ],
       ),
